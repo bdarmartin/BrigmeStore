@@ -1,0 +1,17 @@
+.error input {
+    border-color: #bd2130;
+}
+
+.actions {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+a, a:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    color: #0056b3;
+}
