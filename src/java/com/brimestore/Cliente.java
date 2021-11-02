@@ -16,7 +16,6 @@ public class Cliente {
     protected String telefono;
     protected String nit;
     protected String contrasena;
-    // private Courses courses;
     
     
     /**

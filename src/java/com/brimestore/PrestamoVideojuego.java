@@ -13,7 +13,6 @@ public class PrestamoVideojuego {
     protected int id;
     protected Prestamo prestamo;
     protected Videojuego videojuego;
-    // private Courses courses;
     
     
     /**

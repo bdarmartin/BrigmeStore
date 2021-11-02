@@ -15,3 +15,8 @@ a, a:hover {
 a:hover {
     color: #0056b3;
 }
+
+a.disabled {
+    pointer-events: none;
+    color: gray !important;
+}

@@ -17,7 +17,6 @@ public class Videojuego {
     protected int cantidad_total;
     protected int existencias;
     protected float precio_prestamo;
-    // private Courses courses;
     
     
     /**

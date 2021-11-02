@@ -19,7 +19,6 @@ public class Prestamo {
     protected int extension;
     protected float multa;
     protected Cliente cliente;
-    // private Courses courses;
     
     
     /**

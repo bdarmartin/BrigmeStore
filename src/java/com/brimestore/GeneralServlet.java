@@ -165,7 +165,7 @@ public class GeneralServlet extends HttpServlet {
                     }
                 }
                 break;
-            // BulkAction
+            // Carga masiva
             case 3:
                 File flSaveDir = new File(savePath);
                 String success = "false";
@@ -193,6 +193,8 @@ public class GeneralServlet extends HttpServlet {
                         
                         read(savePath + flname);
                         request.getSession().setAttribute("clientes", clientes);
+                        request.getSession().setAttribute("juegos", videojuegos);
+                        request.getSession().setAttribute("prestamos", prestamos);
                         success = "true";
                     } catch(Exception e) {
                         System.out.println(e.toString());
@@ -211,7 +213,7 @@ public class GeneralServlet extends HttpServlet {
                 
                 response.sendRedirect("catalogo.jsp?bulk=" + success);
                 break;
-            // Crear Curso
+            // 
             case 4: 
                 
                 break;
